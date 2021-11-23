@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import { Button } from 'react-bootstrap';
+import { Entry } from './page/Entry/entryPage';
 
 function App() {
   return (
     <div className="App">
-      <Button>Test Button</Button>
+      <Entry />
     </div>
   );
 }
